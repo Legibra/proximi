@@ -1,0 +1,131 @@
+/**
+ * Theme Name: proximi
+ * Theme URI: 
+ * Author: Astoundify
+ * Author URI:
+ * Description: Everything you need to build a professional job board.
+ * Version: 1.0.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: white, one-column, right-sidebar, fixed-width, custom-background, custom-header, theme-options, full-width-template, featured-images, flexible-header, custom-menu, translation-ready
+ * Template: jobify
+*/
+/**
+ * The parent theme's CSS is automatically included so there is no need
+ * to use the @import rule to include the parent theme CSS.
+ *
+ * Place Custom CSS Below this.
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html{
+	font-family: 'Roboto';
+	color: 	#000!important;
+}
+.text-white{
+	color: #fff!important;
+}
+@media screen and (min-width: 1200px){
+	.sub-menu{
+		background: #F8F8F8!important;
+	}
+	.nav-menu-break-large .nav-menu--primary a, .nav-menu-break-large ul.nav-menu--primary a {
+		/*border-radius: 0px;*/
+	    border: 1.5px solid transparent;
+	}
+	.nav-menu--primary ul li a, .nav-menu--primary li a, .nav-menu--primary ul li a:hover, .nav-menu--primary li a:hover, .primary-menu-toggle, .searchform--header__submit, .searchform--header__input {
+	    
+	    border: 1.5px solid red;
+	}
+	.nav-menu-break-large .nav-menu--primary .children a, .nav-menu-break-large .nav-menu--primary .sub-menu a, .nav-menu-break-large ul.nav-menu--primary .children a, .nav-menu-break-large ul.nav-menu--primary .sub-menu a:hover,.nav-menu-break-large .nav-menu--primary .children a, .nav-menu-break-large .nav-menu--primary .sub-menu a, .nav-menu-break-large ul.nav-menu--primary .children a, .nav-menu-break-large ul.nav-menu--primary .sub-menu a:active{	   
+	    border: 1.5px solid transparent;
+	}
+	.nav-menu-break-large .nav-menu--primary .menu-item-has-children>a:after, .nav-menu-break-large ul.nav-menu--primary .menu-item-has-children>a:after {
+	    color: red;
+	}
+	.button--type-inverted, .widget--home-video .button, .load_more_jobs strong, .load_more_resumes strong, .job-manager-form.wp-job-manager-bookmarks-form a.bookmark-notice, .job-manager-form.wp-job-manager-favorites-form a.favorite-notice {
+	    border-color: #ef8c8c;
+	}
+	.widget-description.widget-description--home, .callout-feature-content p, .hero-search__content h2,.widget-description.widget-description--home, .callout-feature-content p, .hero-search__content{
+		/*color: #fff!important;*/
+	}
+
+	.nav-menu-break-large .nav-menu--primary .children li, .nav-menu-break-large .nav-menu--primary .sub-menu li, .nav-menu-break-large ul.nav-menu--primary .children li, .nav-menu-break-large ul.nav-menu--primary .sub-menu li {
+		text-align: left!important;
+	}
+
+	.nav-menu-break-large .nav-menu--primary .children, .nav-menu-break-large .nav-menu--primary .sub-menu, .nav-menu-break-large ul.nav-menu--primary .children, .nav-menu-break-large ul.nav-menu--primary .sub-menu {
+    	padding: 20px 10px 0px 10px;
+    	width: 320px;
+	}
+
+	body .chosen-container-single .chosen-single div:before{
+    	color: red!important;
+    }
+    .menu-item-287 a{
+    	border-color: red;
+    }
+}
+
+ .site-info {
+    /*font: 700 12px/26px Montserrat,sans-serif;*/
+    text-transform: capitalize;
+    font-weight: normal;
+}    
+ul.job_listings .job_listing:hover, .job_position_featured, li.type-resume:hover {
+    box-shadow: inset 0px 0 0 #dd3333;
+}
+.footer-cta {
+    background-color: #d50000;
+}
+
+/**/
+.job-meta-top,.job_listing-map-wrapper{
+	/*display: none!important;*/
+}
+
+/*.job-type.term-22, .job-type.freelance ,.button--type-action, .button--type-secondary:hover, .single-product #content .single_add_to_cart_button, .checkout-button, #place_order, input[type=button].application_button, .application_button_link, input[type=button].resume_contact_button {
+    border-radius: 0px;
+}*/
+.job-type.term-20, .job-type.part-time {
+    background-color: #f7931e!important;
+}
+.footer-social a:before{
+    background: red;
+    border-radius: 100%;
+    width: 30px;
+    color: #666666;
+    background: #fff;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+}
+
+.page-header {
+    background: #fff!important;
+}    
+
+.nf-form-fields-required{
+	display: none;
+}
+
+.job-type, .job_listing-type, .single-product .page-header .sale .onsale {
+    padding: 8px 10px;
+}
+
+/* application form */
+/*#apply_form{
+	padding-top: 50px;
+}
+#apply_form .form-group input{
+	margin: 10px 0px 30px 0px;
+}*/
+.wpcf7-form .wpcf7-form-control{
+	margin: 10px 0px 30px 0px;
+}
+.nav-menu>ul .sub-menu li, ul.nav-menu .sub-menu li:hover {
+   /*background-color: #FFE5E5;*/
+   border-bottom: 0.5px solid #DCDCDC;
+}
+.woocommerce-MyAccount-navigation-link--orders,.woocommerce-MyAccount-navigation-link--downloads,.woocommerce-MyAccount-navigation-link--edit-address,.woocommerce-simple-registration-login-link{
+	display: none;
+}
